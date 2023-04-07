@@ -6,10 +6,9 @@
     "dist"
   ],
   "dependencies": {
-    "@sway/monorepo-pkg-a": "^0.1.0"
+    "@sway/monorepo-pkg-a": "workspace:^"
   },
   "devDependencies": {
-    "typescript": "^4.9.4"
   },
   "scripts": {
     "watch": "tsc index.ts --outDir dist --watch",

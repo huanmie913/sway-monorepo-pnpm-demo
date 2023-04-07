@@ -10,28 +10,19 @@ importers:
       rimraf:
         specifier: ^3.0.2
         version: registry.npmmirror.com/rimraf@3.0.2
-
-  packages/a:
-    devDependencies:
       typescript:
         specifier: ^4.9.4
         version: registry.npmmirror.com/typescript@4.9.4
+
+  packages/a: {}
 
   packages/b:
     dependencies:
       '@sway/monorepo-pkg-a':
-        specifier: ^0.1.0
+        specifier: workspace:^
         version: link:../a
-    devDependencies:
-      typescript:
-        specifier: ^4.9.4
-        version: registry.npmmirror.com/typescript@4.9.4
 
-  packages/c:
-    devDependencies:
-      typescript:
-        specifier: ^4.9.4
-        version: registry.npmmirror.com/typescript@4.9.4
+  packages/c: {}
 
 packages:
 
