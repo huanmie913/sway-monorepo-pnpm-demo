@@ -1,0 +1,22 @@
+{
+  "name": "@sway/monorepo-pkg-b",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@sway/monorepo-pkg-a": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "watch": "tsc index.ts --outDir dist --watch",
+    "build": "rimraf dist && tsc index.ts --outDir dist",
+    "prepublish": "pnpm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
