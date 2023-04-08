@@ -1,0 +1,12 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "@sway/monorepo-pkg-a": "0.0.0",
+    "@sway/monorepo-pkg-b": "0.0.0",
+    "@sway/monorepo-pkg-c": "0.0.0"
+  },
+  "changesets": [
+    "bright-dogs-sit"
+  ]
+}

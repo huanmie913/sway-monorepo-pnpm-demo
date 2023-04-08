@@ -1,5 +1,11 @@
 # @sway/monorepo-pkg-a
 
+## 0.0.1-beta.0
+
+### Patch Changes
+
+- 2405c73: test chagneset
+
 ## 0.1.1
 
 ### Patch Changes

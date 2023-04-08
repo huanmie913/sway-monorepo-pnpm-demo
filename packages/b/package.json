@@ -1,6 +1,6 @@
 {
   "name": "@sway/monorepo-pkg-b",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -8,8 +8,7 @@
   "dependencies": {
     "@sway/monorepo-pkg-a": "workspace:^"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "watch": "tsc index.ts --outDir dist --watch",
     "build": "rimraf dist && tsc index.ts --outDir dist",
