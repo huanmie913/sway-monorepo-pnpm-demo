@@ -1,6 +1,6 @@
 {
   "name": "@sway/monorepo-pkg-b",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "files": [
     "dist"
