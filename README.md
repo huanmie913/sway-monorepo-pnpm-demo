@@ -1,5 +1,3 @@
-> 来源：
-> - 基于 pnpm + changesets 的 monorepo 最佳实践：[https://juejin.cn/post/7181409989670961207](https://juejin.cn/post/7181409989670961207)
 
 ## 为什么选择 pnpm
 以下是选择 pnpm 的一些原因：
@@ -230,6 +228,6 @@ pnpm changeset publish
 ```
 `changeset` 会检查当前工作区中所有包的版本是否已经被发布过，如果没有则自动发布。<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/333805/1680955351374-fad91d24-9328-43ce-ab25-ec01f9f796ca.png#averageHue=%232a2a2a&clientId=u84ba6824-ad06-4&from=paste&height=255&id=uec67fbd6&name=image.png&originHeight=510&originWidth=1604&originalType=binary&ratio=2&rotation=0&showTitle=false&size=155079&status=done&style=none&taskId=udbae6d35-bc18-4f93-9016-362bda1274f&title=&width=802)
 
-
-
+> 参考：
+> - 基于 pnpm + changesets 的 monorepo 最佳实践：[https://juejin.cn/post/7181409989670961207](https://juejin.cn/post/7181409989670961207)
 
